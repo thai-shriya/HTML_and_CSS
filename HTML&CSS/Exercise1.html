@@ -1,3 +1,55 @@
+<style>
+  .amazon-link {
+    color: blue;
+    transition: 0.15s;
+  }
+  .amazon-link:hover {
+    color: red;
+  }
+  .item {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .price {
+    font-size: 20px;
+    color: green;
+  }
+  .delivery {
+    font-size: 20px;
+  }
+
+  .cart-button {
+    background-color: rgba(255, 216, 20);
+    height: 40px;
+    width: 120px;
+    color: black;
+    border: none;
+    border-radius: 40px;
+    margin-right: 30px;
+    opacity: background-color 0.15s, color 0.15s;
+    cursor: pointer;
+  }
+  .cart-button:active {
+    background-color: black;
+    color: rgba(255, 216, 20);
+  }
+  .buy-now-button {
+    background-color: rgba(255, 164, 28);
+    height: 40px;
+    width: 120px;
+    color: black;
+    border: none;
+    border-radius: 40px;
+    opacity: background-color 0.15s, color 0.15s;
+    cursor: pointer;
+  }
+
+  .buy-now-button:active {
+    background-color: black;
+    color: rgba(255, 164, 28);
+  }
+</style>
+<!--
 <button>Click</button>
 <button>Shriya</button>
 <button>Brownie</button>
@@ -7,10 +59,13 @@
 <br />
 <br />
 <br />
+-->
 
-<a href="https://www.amazon.com/" target="_blank">Back to amazon</a>
-<p>Nike Running Shoes</p>
-<p>$30 - in stoock</p>
-<p>Free delivery tm</p>
-<button>Add to cart</button>
-<button>Buy now</button>
+<a class="amazon-link" href="https://www.amazon.com/" target="_blank"
+  >Back to amazon</a
+>
+<p class="item">Nike Running Shoes</p>
+<p class="price">$30 - in stock</p>
+<p class="delivery">Free delivery tm</p>
+<button class="cart-button">Add to cart</button>
+<button class="buy-now-button">Buy now</button>
