@@ -1,0 +1,45 @@
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.video-title {
+  font-weight: bold;
+  font-size: 18px;
+  width: 300px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+.video-stats {
+  font-size: 13px;
+  color: #606060;
+  margin-bottom: 10px;
+}
+.video-author {
+  font-size: 13px;
+  color: #606060;
+  margin-top: 20px;
+}
+.desc {
+  color: #606060;
+  width: 300px;
+  text-align: left;
+  font-size: 13px;
+  line-height: 18px;
+  margin-bottom: 100px;
+}
+.footer {
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+  background-color: #e34140;
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.shop-link {
+  cursor: pointer;
+}
+.shop-link:hover {
+  text-decoration: underline;
+}

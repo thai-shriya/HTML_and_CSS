@@ -1,0 +1,24 @@
+.name-input {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 20px;
+  border-radius: 3px;
+  color: gray;
+  display: block;
+  width: 300px;
+  margin-bottom: 15px;
+}
+.email-input {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 20px;
+  border-radius: 3px;
+  color: gray;
+  display: block;
+  width: 300px;
+  margin-bottom: 15px;
+}
